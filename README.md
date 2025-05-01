@@ -33,8 +33,7 @@ Some layouts may show how both techniques can complement each other in a single 
 
 1. **Clone the repository** to your machine:
    ```bash
-   git clone https://github.com/Ayomi-Dev/css-cgrid-flexbox-basics.git
-   cd css-cgrid-flexbox-basics
+   git clone https://github.com/Ayomi-Dev/grid-flexbox-basics.git
 Open HTML files directly in your browser or via a live server (e.g. VS Code Live Server extension) to see the layouts in action.
 
 Explore and modify the code to understand how each layout works and test variations.
