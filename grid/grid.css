@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    grid-template-columns: .8fr 2fr;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer"
+    ;
+    gap: 10px;
+}
+.header{
+    grid-area: header;
+    border: red solid 1px;
+}
+.aside{
+    grid-area: aside;
+    border: blue solid 1px;
+}
+.main{
+    grid-area: main;
+    border: violet solid 1px;
+}
+.footer{
+    grid-area: footer;
+    border: green solid 1px;
+}
+@media screen and (max-width: 768px) {
+    .grid-container{
+        display: block;
+    }
+    .header{
+        height: 80px;
+    }
+    .aside{ /*aside is hidden on mobile screen but can be toggled on and off using JS*/
+        display: none;
+    }
+    .main{
+        height: 100vh;
+    }
+    .footer{
+        height: 80px;
+    }
+    
+}
+
+
