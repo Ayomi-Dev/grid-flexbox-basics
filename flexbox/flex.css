@@ -2,7 +2,6 @@
 /* This layout uses flexbox to create a responsive design that adapts to different screen sizes. */
 
   /* Reset some default styles */ 
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@
   }
   
   .header {
-    background: #333;
+    background: #18135a;
     color: white;
     padding: 1rem;
   }
@@ -29,7 +28,6 @@
   .aside-main-wrapper {
     display: flex;
     flex: 1;
-    border: 1px solid red;
   }
   
   .aside {
@@ -61,6 +59,8 @@
     padding: 1rem;
     text-align: center;
   }
+
+  /* Mobile screen size */
   @media (max-width: 768px) {
     .aside-main-wrapper {
       flex-direction: column;
